@@ -17,14 +17,14 @@ button{
     outline: none;
     border: none;
 }
-.up,.down{
+.desc_one,.desc_two{
     display: flex;
     justify-content: space-around;
     margin: 0;
     height: 20px;
 }
 
-.up p,.down p{
+.desc_one p,.desc_two p{
     font-weight: bold;
     width: 3000px;
 }
