@@ -53,7 +53,7 @@ document.getElementById("getData").addEventListener("click", (e) => {
         postalData=data[0];
         document.getElementById("message").innerHTML+=postalData.Message;
         console.log(postalData);
-        renderItems(postalData.PostOffice)
+        displayCards(postalData.PostOffice)
     })
 
     map.src=`https://maps.google.com/maps?q=${lat},${long}&z=15&output=embed`;
